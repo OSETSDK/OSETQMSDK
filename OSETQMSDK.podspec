@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETQMSDK"
-  s.version      = "6.4.8.2"
+  s.version      = "6.4.8.3"
   s.summary      = "奇点广告对接"
   s.description  = <<-DESC
                       OSETCoreSDK 是一个专业的广告SDK，提供高效的广告展示和收益优化功能。
@@ -24,7 +24,13 @@ Pod::Spec.new do |s|
   
   # 系统框架依赖
   s.frameworks = "Foundation", "UIKit", "AdSupport", "CoreTelephony", "StoreKit", "SystemConfiguration"
-  
+  # 排除模拟器的 arm64 架构
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
   # 资源文件
   s.resources = "OSETSDK.bundle"
     
