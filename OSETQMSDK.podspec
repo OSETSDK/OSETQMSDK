@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "OSETQMSDK"
-  s.version      = "6.4.8.3"
+  s.version      = "6.4.8.4"
   s.summary      = "奇点广告对接"
   s.description  = <<-DESC
-                      OSETCoreSDK 是一个专业的广告SDK，提供高效的广告展示和收益优化功能。
+                        OSETQMSDK 是一个专业的广告SDK，提供高效的广告展示和收益优化功能。
                     DESC
-  s.homepage     = "https://github.com/OSETSDK/OSETCoreSDK"
+  s.homepage     = "https://github.com/OSETSDK/OSETQMSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { 'shenshi' => 'yaohaofei@shenshiads.com' }
   
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   # 源文件配置
   s.source       = {
-    :git => 'https://github.com/OSETSDK/OSETCoreSDK.git',
+    :git => 'https://github.com/OSETSDK/OSETQMSDK.git',
     :tag => s.version.to_s
   }
   
