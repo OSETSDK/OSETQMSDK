@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETQMSDK"
-  s.version      = "6.4.8.4"
+  s.version      = "6.4.8.5"
   s.summary      = "奇点广告对接"
   s.description  = <<-DESC
                         OSETQMSDK 是一个专业的广告SDK，提供高效的广告展示和收益优化功能。
