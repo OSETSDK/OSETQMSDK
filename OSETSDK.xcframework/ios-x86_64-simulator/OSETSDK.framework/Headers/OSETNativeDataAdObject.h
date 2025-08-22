@@ -45,6 +45,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *appName;
 
 @property (nonatomic, assign) BOOL isVideoAd;
+@property (nonatomic, assign) BOOL isShake;
+
 /**
  广告 图标Url
  */
