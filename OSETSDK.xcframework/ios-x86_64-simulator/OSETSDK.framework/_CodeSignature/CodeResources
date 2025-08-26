@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AliyunLogProducer.bundle/Info.plist</key>
+		<data>
+		r1+klAoFKBSNC41tOWWpJkVB5rw=
+		</data>
+		<key>AliyunLogProducer.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		/l2uZjpHHyHfU9l5DF2BMsHgLWU=
+		</data>
 		<key>Headers/OSETBannerAd.h</key>
 		<data>
 		ikkSMIngV2yBfmi5r1nQma3gWHY=
@@ -327,6 +335,28 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AliyunLogProducer.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r1+klAoFKBSNC41tOWWpJkVB5rw=
+			</data>
+			<key>hash2</key>
+			<data>
+			koWs3HiV8pQcg2mrDgf5dmsObG2CCkFDG09fLbIQv/Q=
+			</data>
+		</dict>
+		<key>AliyunLogProducer.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/l2uZjpHHyHfU9l5DF2BMsHgLWU=
+			</data>
+			<key>hash2</key>
+			<data>
+			wMNSs0tumrLCQBWHR1t6LDvQPSh+QLeSA8ywuK8xxn8=
+			</data>
+		</dict>
 		<key>Headers/OSETBannerAd.h</key>
 		<dict>
 			<key>hash</key>
