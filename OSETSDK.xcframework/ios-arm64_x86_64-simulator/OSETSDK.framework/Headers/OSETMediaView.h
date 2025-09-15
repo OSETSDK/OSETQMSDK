@@ -9,21 +9,21 @@
 #import "OSETNativeDataAdObject.h"
 NS_ASSUME_NONNULL_BEGIN
 @class OSETMediaView;
-@protocol GDTMediaViewDelegate <NSObject>
+@protocol OSETMediaViewDelegate <NSObject>
 
 @optional
 
-/**
- 用户点击 MediaView 回调，当 VideoConfig userControlEnable 设为 YES，用户点击 mediaView 会回调。
- @param mediaView 播放器实例
- */
-- (void)OSETMediaViewDidTapped:(OSETMediaView *)mediaView;
-/**
- 播放完成回调
-
- @param mediaView 播放器实例
- */
-- (void)OSETMediaViewDidPlayFinished:(OSETMediaView *)mediaView;
+///**
+// 用户点击 MediaView 回调，当 VideoConfig userControlEnable 设为 YES，用户点击 mediaView 会回调。
+// @param mediaView 播放器实例
+// */
+//- (void)OSETMediaViewDidTapped:(OSETMediaView *)mediaView;
+///**
+// 播放完成回调
+//
+// @param mediaView 播放器实例
+// */
+//- (void)OSETMediaViewDidPlayFinished:(OSETMediaView *)mediaView;
 
 @end
 
@@ -35,9 +35,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) OSETNativeDataAdObject * dataObject;
 
 /**
- GDTMediaView 回调对象
+ OSETMediaView 回调对象
  */
-@property (nonatomic, weak) id <GDTMediaViewDelegate> delegate;
+@property (nonatomic, weak) id <OSETMediaViewDelegate> delegate;
 
 ///**
 // * 视频广告时长，单位 ms
