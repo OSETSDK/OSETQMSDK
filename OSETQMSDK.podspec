@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
   # Swift版本设置
   s.swift_version = '5.0'
 
- s.dependency 'QuMengAdSDK', '>= 1.3.1'
+ s.dependency 'QuMengAdSDK', '>= 1.3.1', '< 1.3.7'
 end
